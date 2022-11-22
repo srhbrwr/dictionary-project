@@ -5,8 +5,17 @@ import Dictionary from './Dictionary';
 function App() {
   return (
     <div className="App">
-      <h1>React Dictionary App</h1>
-      <Dictionary />
+      <div className="container">
+        <header className="App-header">
+          <h1>React Dictionary App</h1>
+        </header>
+        <main>
+        <Dictionary />
+        </main>
+        <footer className="App-footer">
+          <small>Coded by Sarah</small>
+          </footer>
+      </div>
     </div>
   );
 }
