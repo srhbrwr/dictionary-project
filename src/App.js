@@ -13,7 +13,13 @@ function App() {
           <Dictionary defaultKeyword="wine" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Sarah</small>
+          <small>
+            Coded by Sarah, open-sourced on
+            <a href="https://github.com/srhbrwr/dictionary-project" target="_blank" rel="noreferrer">
+              {" "}
+              GitHub.{" "}
+            </a>
+          </small>
         </footer>
       </div>
     </div>
